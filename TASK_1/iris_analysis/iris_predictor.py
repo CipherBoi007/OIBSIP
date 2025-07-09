@@ -6,7 +6,7 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score
 
-DATA_PATH = "iris.csv"  # Path to your iris dataset
+DATA_PATH = "iris.csv"  
 
 def load_data():
     """Load the Iris dataset"""
