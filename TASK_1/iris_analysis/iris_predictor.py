@@ -47,15 +47,18 @@ def predict_species(sepal_length, sepal_width, petal_length, petal_width):
         print("⚠️ Model not found. Training new model...")
         model = train_model()
     
-    # Make prediction
-    input_data = np.array([[sepal_length, sepal_width, petal_length, petal_width]])
-    prediction = model.predict(input_data)[0]
+    # Create input as DataFrame with feature names
+    input_data = pd.DataFrame(
+        [[sepal_length, sepal_width, petal_length, petal_width]],
+        columns=['SepalLengthCm', 'SepalWidthCm', 'PetalLengthCm', 'PetalWidthCm']
+    )
     
-    # Get probabilities
+    # Make prediction
+    prediction = model.predict(input_data)[0]
     probabilities = model.predict_proba(input_data)[0]
     classes = model.classes_
     
-    # Show results
+    # Format results
     print("\n🔮 Prediction Results:")
     print(f"Species: {prediction}")
     print("Probabilities:")
