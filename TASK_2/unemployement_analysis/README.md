@@ -48,3 +48,5 @@ Exploratory Data Analysis (EDA)
 Creating interactive and static visualizations
 
 Understanding socio-economic patterns during global crises
+
+To Access the Dashboard follow the link : https://public.tableau.com/views/COVIDAnalysis_17521642170740/INDIASUNEMPLOYMENTCRISISTrackingCOVID-19ImpactSubtitleState-wiseAnalysis2019-2023?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
