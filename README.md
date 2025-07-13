@@ -17,40 +17,39 @@ Welcome to my Data Science Internship portfolio with **Oasis Infobyte**. This re
 
 OIBSIP/
 ├── TASK_1_iris_analysis/
-│   ├── iris.csv
-│   ├── iris.ipynb
-│   └── README.md
+│ ├── iris.csv
+│ ├── iris.ipynb
+│ └── README.md
 │
 ├── TASK_2_unemployement_analysis/
-│   ├── Dashboard/
-│   ├── unemployement_analysis.ipynb
-│   ├── Unemployment in India.csv
-│   └── README.md
+│ ├── Dashboard/
+│ ├── unemployement_analysis.ipynb
+│ ├── Unemployment in India.csv
+│ └── README.md
 │
 ├── TASK_3_car_price_prediction/
-│   ├── car data.csv
-│   ├── car_price_train.py
-│   ├── car_price_gui.py
-│   ├── car_price_model.pkl
-│   └── README.md
+│ ├── car data.csv
+│ ├── car_price_train.py
+│ ├── car_price_gui.py
+│ ├── car_price_model.pkl
+│ └── README.md
 │
 ├── TASK_4_Spam_Detection/
-│   ├── spam.csv
-│   ├── spam_gui.py
-│   ├── spam_model.pkl
-│   ├── tfidf_vectorizer.pkl
-│   ├── train_model.py
-│   └── README.md
+│ ├── spam.csv
+│ ├── spam_gui.py
+│ ├── spam_model.pkl
+│ ├── tfidf_vectorizer.pkl
+│ ├── train_model.py
+│ └── README.md
 │
 ├── TASK_5_Sales_Prediction/
-│   ├── Advertising.csv
-│   ├── sales_prediction.py
-│   └── README.md
+│ ├── Advertising.csv
+│ ├── sales_prediction.py
+│ └── README.md
 │
 ├── .gitignore
 ├── requirement.txt
-└── README.md  ← Main Project README
-
+└── README.md ← Main Project README
 
 # 🌸 Task 1: Iris Flower Classification
 
