@@ -187,7 +187,10 @@ pip install -r requirement.txt
 Thanks to Oasis Infobyte for providing this wonderful internship opportunity.
 
 📬 Contact
-  Yogesh V
+
+  Name : Yogesh V
+  
   Email : cipherboi007@gmail.com
+  
   LinkedIn : https://www.linkedin.com/in/yogesh-v-1b2726307/
   
