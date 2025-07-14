@@ -31,23 +31,17 @@ mse = mean_squared_error(y_test, y_pred)
 rmse = np.sqrt(mse)
 r2 = r2_score(y_test, y_pred)
 
-# Print performance metrics
+    # Print performance metrics
 print("\nPerformance Metrics (SVR Model):")
 print(f"Root Mean Squared Error (RMSE): {rmse:.4f}")
 print(f"R-squared (R²): {r2:.4f}")
 
+# Save model and scaler for Streamlit app
+import joblib
+joblib.dump(model, 'sales_model.pkl')
+joblib.dump(scaler, 'sales_scaler.pkl')
+print("\nModel and scaler saved as 'sales_model.pkl' and 'sales_scaler.pkl'.")
 
-print("\nEnter advertising budgets (in thousands):")
-tv = float(input("TV: "))
-radio = float(input("Radio: "))
-newspaper = float(input("Newspaper: "))
 
-user_input = pd.DataFrame({
-    'TV': [tv],
-    'Radio': [radio],
-    'Newspaper': [newspaper]
-})
-user_input_scaled = scaler.transform(user_input)
-predicted_sales = model.predict(user_input_scaled)[0]
 
-print(f"\nPredicted Sales: {predicted_sales:.2f} (in thousands)")
+    # The Streamlit app will handle user input and prediction.
